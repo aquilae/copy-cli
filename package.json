@@ -4,7 +4,7 @@
   "description": "Simple JS-native command-line utility to copy files",
   "main": "lib/index",
   "bin": {
-    "aq.copy-cli": "aq.copy-file.js"
+    "aq.copy-cli": "bin/aq.copy-file.js"
   },
   "dependencies": {
     "fs-extra": "^0.30.0"
