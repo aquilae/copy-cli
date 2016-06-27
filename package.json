@@ -1,0 +1,31 @@
+{
+  "name": "aq.copy-cli",
+  "version": "1.0.0",
+  "description": "Simple JS-native command-line utility to copy files",
+  "main": "lib/index",
+  "bin": {
+    "aq.copy-cli": "aq.copy-file.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.30.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquilae/copy-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "copy",
+    "fs"
+  ],
+  "author": "Ilya \"Aquilae\" Kozlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquilae/copy-cli/issues"
+  },
+  "homepage": "https://github.com/aquilae/copy-cli#readme"
+}
